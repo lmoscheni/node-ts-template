@@ -1,5 +1,9 @@
+# Folders
 node_modules
 build
-.env
 .vscode
+coverage
+
+# Files
+.env
 combined.log
