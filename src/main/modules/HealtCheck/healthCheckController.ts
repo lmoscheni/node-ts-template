@@ -18,6 +18,7 @@ export default class HealthCheckController {
   }
 
   healthCheck(req: Request, res: Response): void {
+    req.context.logger.info('healthCheck');
     res.send(this.facade.healthCheck());
   }
 }
